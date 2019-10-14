@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+</head>
+  <title>御神籤</title>
+</head>
+<body>
+	<header class="top-wrapper">
+    <div class="container">
+        <a class="top">世界旅行おみくじ！</a>
+   </div>
+		
+	</header>
+	<div  class="main">
+    <!-- 世界地図の画像のランダム表示 -->
+    <div class="travel" id="bg-change">
+    </div>
+    <!-- 画像に合わせて国の名前が出るようにする！ -->
+    <!-- 行き先を占うボタン -->
+    <div class="reset">
+     <input class="none" type="button" value="リセット" onclick="window.location.reload();">
+    </div>
+    <span class="btn" id="btn"">あなたの次の旅行先は?</span>
+
+  </div>
+  <div class="top-wrapper">
+    <div class="container">
+      <div class="scroll">
+        <a>結果が出たら下にスライドしてみよう！</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- アメリカの場合 -->
+  <div class="america">
+   <div class="country-detail">
+     <div class="container">
+        <h1 class="first-message">アメリカの見所を紹介！</h1>
+        <img src="img/アメリカ1.jpg" alt="アメリカ合衆国の画像">
+        <br><br>
+
+        <div class="sight">
+          <h1>Grand Canyon</h1>
+          <p>グランド キャニオン</p>
+          <img src="img/グランドキャニオン.webp" alt="グランドキャニオンの画像">
+        </div>
+        <div class="sight">
+          <h1>Times Square</h1>
+          <p>タイムズスクエア</p>
+          <img src="img/タイムズスクエア.jpg" alt="タイムズスクエアの画像">
+
+        </div>
+        <div class="sight">
+           <h1>Niagara Falls</h1>
+           <p>ナイアガラの滝</p>
+          <img src="img/ナイアガラ観光地.jpg"" alt="ナイアガラの滝の画像">
+        </div>
+        <div class="sight">
+          <h1>Hawaii</h1>
+          <p>ハワイ</p>
+          <img src="img/アメリカハワイ.jpg" alt="ハワイの画像">
+        </div>
+        <div class="sight">
+          <h1>The Statue of Liberty</h1>
+          <p>自由の女神像</p>
+          <img src="img/アメリカ観光地1.jpg" alt="自由の女神の画像">
+
+          <h1 class="last-message">さっそくアメリカに出かけよう！</h1>
+          <a class="show return" onclick="window.location.reload();">top</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- フランスの場合 -->
+<div class="france">
+    <div class="country-detail">
+      <div class="container">
+         <h1 class="first-message">フランスの見所を紹介！</h1>
+         <img src="img/フランス紹介.jpeg" alt="フランスの画像">
+         <br><br>
+         <div class="sight">
+           <h1>Mont Saint Michel</h1>
+           <p>モンサンミッシェル</p>
+           <img src="img/モンサンミッシェル.jpg" alt="モンサンミッシェルの画像">
+         </div>
+         <div class="sight">
+           <h1>Arc de Triomphe</h1>
+           <p>凱旋門</p>
+           <img src="img/凱旋門.jpg" alt="凱旋門の画像">
+         </div>
+         <div class="sight">
+            <h1>Palace of Versailles</h1>
+            <p>ヴェルサイユ宮殿</p>
+           <img src="img/ヴェルサイユ宮殿.jpg" alt="ヴェルサイユ宮殿の画像">
+         </div>
+         <div class="sight">
+           <h1>The Eiffel tower</h1>
+           <p>エッフェル塔</p>
+           <img src="img/エッフェル塔.jpg" alt="エッフェル塔の画像">
+         </div>
+         <div class="sight">
+           <h1>Louvre Museum</h1>
+           <p>ルーヴル美術館</p>
+           <img src="img/ルーヴル美術館.jpeg" alt="ルーヴル美術館の画像">
+           <h1 class="last-message">さっそくフランスに出かけよう！</h1>
+           <a class="show return" onclick="window.location.reload();">top</a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+<!-- イギリスの場合 -->
+<div class="briten">
+    <div class="country-detail">
+      <div class="container">
+         <h1 class="first-message">イギリスの見所を紹介！</h1>
+         <img src="img/イギリス紹介.jpg" alt="イギリスの画像">
+         <br><br>
+         <div class="sight">
+           <h1>Big Ben</h1>
+           <p>ビックベン</p>
+           <img src="img/ビックベン.jpg" alt="ビックベンの画像">
+         </div>
+         <div class="sight">
+           <h1>British Museum</h1>
+           <p>大英博物館</p>
+           <img src="img/大英博物館.jpg" alt="大英博物館の画像">
+         </div>
+         <div class="sight">
+            <h1>Tower bridge</h1>
+            <p>タワー・ブリッジ</p>
+           <img src="img/タワー・ブリッジ.jpg"alt="タワーブリッジの画像">
+         </div>
+         <div class="sight">
+           <h1>Stonehenge</h1>
+           <p>ストーン・ヘンジ</p>
+           <img src="img/ストーン・ヘンジ.jpg" alt="ストーン・ヘンジの画像">
+         </div>
+         <div class="sight">
+           <h1>Seven Sisters</h1>
+           <p>セブンシスターズ</p>
+           <img src="img/セブンシスターズ.jpg" alt="セブンシスターズの画像">
+           <h1 class="last-message">さっそくイギリスに出かけよう！</h1>
+         </div>
+         <a class="show return" onclick="window.location.reload();">top</a>
+       </div>
+     </div>
+   </div>
+ </div>
+<!-- ブラジルの場合 -->
+<div class="burazil">
+    <div class="country-detail">
+      <div class="container">
+         <h1 class="first-message">ブラジルの見所を紹介！</h1>
+         <img src="img/ブラジル紹介.jpeg" alt="ブラジルの画像">
+         <br><br>
+         <div class="sight">
+           <h1>Raysons Maranhenses</h1>
+           <p>レイソンス・マラニャンセス</p>
+           <img src="img/レンソイス・マラニャンセス.jpg" alt="レンソイスマラニャンセスの画像">
+         </div>
+         <div class="sight">
+           <h1>Iguazu Falls</h1>
+           <p>イグアスの滝</p>
+           <img src="img/イグアスの滝.jpg" alt="イグアスの滝の画像">
+         </div>
+         <div class="sight">
+            <h1>Copacana Beach</h1>
+            <p>コパカーナビーチ</p>
+           <img src="img/コパカバーナビーチ.jpg"alt="コパカバーナビーチの画像">
+         </div>
+         <div class="sight">
+           <h1>Corcovado Hill</h1>
+           <p>コルコバードの丘</p>
+           <img src="img/コルコバード.jpeg" alt="コルコバードの画像">
+         </div>
+         <div class="sight">
+           <h1>Real Gabinete Portugues Da Leitura</h1>
+           <p>幻想図書館</p>
+           <img src="img/幻想図書館.jpg" alt="幻想図書館の画像">
+           <h1 class="last-message">さっそくブラジルに出かけよう！</h1>
+           <a class="show return" onclick="window.location.reload();">top</a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+<!-- ロシアの場合 -->
+<div class="rusia"">
+    <div class="country-detail">
+      <div class="container">
+         <h1 class="first-message">ロシアの見所を紹介！</h1>
+         <img src="img/ロシア紹介.jpeg" alt="ロシアの画像">
+         <br><br>
+         <div class="sight">
+           <h1>озеро Байкал</h1>
+           <p>バイカル湖</p>
+           <img src="img/バイカル湖.webp" alt="バイカル湖の画像">
+         </div>
+         <div class="sight">
+           <h1>Кремль、Kreml
+           </h1>
+           <p>クレムリン</p>
+           <img src="img/クレムリン.webp" alt="クレムリンの画像">
+         </div>
+         <div class="sight">
+            <h1>Эрмитаж</h1>
+            <p>エルミタージュ美術館の画像</p>
+           <img src="img/エルミタージュ美術館.webp" alt="エルミタージュの画像">
+         </div>
+         <div class="sight">
+           <h1>Екатерининский дворец</h1>
+           <p>エカテリーナ宮殿</p>
+           <img src="img/エカテリーナ宮殿.webp" alt="エカテリーナ宮殿の画像">
+         </div>
+         <div class="sight">
+           <h1>Мурманск</h1>
+           <p>ムルマンスク</p>
+           <img src="img/ムルマンスク.jpeg" alt="ムルマンスクの画像">
+           <h1 class="last-message">さっそくロシアに出かけよう！</h1>
+           <a class="show return" onclick="window.location.reload();">top</a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+<!-- モルディブの場合 -->
+<div class="morudive">
+    <div class="country-detail">
+      <div class="container">
+         <h1 class="first-message">モルディブの見所を紹介！</h1>
+         <img src="img/モルディヴ紹介.jpg" alt="モルディブの画像">
+         <br><br>
+         <div class="sight">
+           <h1>Cocoa Island</h1>
+           <p>ココア島</p>
+           <img src="img/ココア島.jpg" alt="ココア島の画像">
+         </div>
+         <div class="sight">
+           <h1>Kihabara Hula Bali</h1>
+           <p>キハバー・フラバリ島</p>
+           <img src="img/キハバー・フラバリ島.jpg" alt="キハバー・フラバリ島の画像">
+         </div>
+         <div class="sight">
+            <h1>Velassaru Maldives</h1>
+            <p>ヴェラサル島</p>
+           <img src="img/ヴェラサル島.jpg"alt="ヴェラサル島の画像">
+         </div>
+         <h1 class="first-message">さっそくモルディブに出かけよう！</h1>
+         <a class="show return" onclick="window.location.reload();">top</a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+<script src="css/app.js"></script>
+</body>
+</html>

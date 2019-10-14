@@ -1,0 +1,207 @@
+* {
+  box-sizing:border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width:1170px;
+  margin:0 auto;
+}
+
+.top-wrapper {
+  background-image: url(../img/worldflag.png);
+  height:80px;
+  opacity:0.8;
+  
+  text-align:center;
+}
+.top {
+  padding:0 20px;
+  font-size:40px;
+  font-weight:bold;
+  background-color:#87cefa;
+  color: #fafa09;
+  z-index: 1;
+  line-height:80px;
+  border:2px solid black;
+
+}
+
+/* mainここから */
+.main {
+  width:100%;
+  height:80%;
+  background-repeat: no-repeat;
+  background-image: url(../img/wholeworld4.png);
+  background-size:cover;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+
+
+}
+
+.travel {
+  height:400px;
+  width:600px;
+  z-index:1;
+  margin-top:70px; 
+  border:2px solid black;
+  background-size:cover;
+}
+
+.btn {
+  font-weight:bold;
+  font-size:50px;
+  padding: 0 20px;
+  margin: 20px 0;
+  cursor:pointer;
+  border:2px solid #1e90ff;
+  background-color: #1e90ff;
+  box-shadow: 0 7px #00008b;
+  border-radius:4px;
+  color:white;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+/* リセットボタンの設定 */
+.reset {
+  height:20px;
+  margin-top:5px;
+}
+.none {
+  text-align:center;
+  display:none;
+}
+.show {
+  display:block;
+  z-index: 1;
+  border:2px solid #1e90ff;
+  background-color: #1e90ff;
+  box-shadow: 0 7px #00008b;
+  border-radius:4px;
+  color:white;
+}
+.show:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.bg-country {
+  background-size:cover;
+}
+.scroll{
+  line-height:80px;
+}
+
+.scroll a {
+  font-weight:bold;
+  font-size:20px;
+  padding:10px;
+  z-index:1;
+  border:1px solid black;
+  background-color: #87cefa;
+  color:#fafa09;
+}
+
+/* 各国の紹介 */
+/* 初期状態では隠す */
+.america {
+  background-image: url(../img/アメリカ背景.png);
+  display:none;
+}
+.france {
+  background-image: url(../img/フランス背景.png);
+  display:none;
+
+}
+.briten {
+  background-image:url(../img/イギリス背景.png);
+  display:none;
+}
+
+.burazil {
+  background-image:url(../img/ブラジル背景.png);
+  display:none;
+}
+
+.rusia {
+  background-image: url(../img/ロシア背景.png);
+  display:none;
+}
+
+.morudive {
+  background-image: url(../img/モルディブ背景.png);
+  display:none;
+
+}
+
+/* クラス追加で表示 */
+.whole {
+  display:block;
+}
+
+/* 全ての国に共通 */
+.country-detail {
+  font-style:italic;
+  display:flex;
+  align-items: center;
+  text-align:center;
+  width:100%;
+  background:rgba(255, 255, 255, 0.8);
+  padding-top:50px;
+}
+
+.last-message {
+  padding-top:80px;
+  margin-bottom:50px;
+}
+
+.sight {
+  margin:50px 0px;
+  display:none;
+}
+
+.sight p {
+  margin-bottom:20px;
+}
+
+.sight h1 {
+  margin:  0;             /* デフォルトCSS打ち消し */
+    font-size:  24px;       /* 文字サイズ指定 */
+    position:  relative;    /* 位置調整 */
+    font-weight:  normal;   /* 文字の太さ調整 */
+    margin-bottom: 15px;    /* 周りの余白指定 */
+    border-bottom: solid 4px rgba(76, 175, 80, 1);        /* 線指定 */
+    border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;
+    font-size:50px;
+}
+
+.first-message {
+  margin:  0;             /* デフォルトCSS打ち消し */
+    font-size:  24px;       /* 文字サイズ指定 */
+    position:  relative;    /* 位置調整 */
+    font-weight:  normal;   /* 文字の太さ調整 */
+    margin-bottom: 20px;    /* 周りの余白指定 */
+    border-bottom: solid 4px rgba(76, 175, 80, 1);        /* 線指定 */
+    border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;
+    font-size:50px;
+}
+
+.return {
+  padding:20px;
+  font-size:20px;
+  margin-bottom:20px;
+}
+
+
+
+
