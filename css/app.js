@@ -17,7 +17,7 @@ $(function() {
         $('.france,.briten,.burazil,.rusia,.morudive').removeClass('whole');
         $('.america').addClass('whole');
         $('.none').addClass('show');
-        bg.style.backgroundImage = 'url("img/アメリカ.jpg")';
+        bg.style.backgroundImage = 'url("img/america.jpg")';
         $('.whole').hover(function() {
           $('.sight').fadeIn(1000);
         });
@@ -28,7 +28,7 @@ $(function() {
           $('.america,.briten,.burazil,.rusia,.morudive').removeClass('whole');
         $('.france').addClass('whole');
         $('.none').addClass('show');
-        bg.style.backgroundImage = 'url("img/フランス.jpg")';
+        bg.style.backgroundImage = 'url("img/france.jpg")';
         $('.whole').hover(function() {
           $('.sight').fadeIn(1000);
         });
@@ -38,7 +38,7 @@ $(function() {
           $('.america,.france,.burazil,.rusia,.morudive').removeClass('whole');
         $('.briten').addClass('whole');
         $('.none').addClass('show');
-        bg.style.backgroundImage = 'url("img/イギリス.jpeg")';
+        bg.style.backgroundImage = 'url("img/igiris.jpeg")';
         $('.whole').hover(function() {
           $('.sight').fadeIn(1000);
         });
@@ -48,7 +48,7 @@ $(function() {
           $('.america,.france,.briten,.rusia,.morudive').removeClass('whole');
         $('.burazil').addClass('whole');
         $('.none').addClass('show');
-         bg.style.backgroundImage = 'url("img/ブラジル.jpeg")';
+         bg.style.backgroundImage = 'url("img/burazil.jpeg")';
          $('.whole').hover(function() {
           $('.sight').fadeIn(1000);
         });
@@ -58,7 +58,7 @@ $(function() {
           $('.america,.france,.briten,.burazil,.morudive').removeClass('whole');
         $('.rusia').addClass('whole');
         $('.none').addClass('show');
-        bg.style.backgroundImage = 'url("img/ロシア.jpeg")';
+        bg.style.backgroundImage = 'url("img/rusia.jpeg")';
         $('.whole').hover(function() {
           $('.sight').fadeIn(1000);
         });
@@ -68,7 +68,7 @@ $(function() {
           $('.america,.france,.briten,.burazil,.rusia').removeClass('whole');
         $('.morudive').addClass('whole');
         $('.none').addClass('show');
-        bg.style.backgroundImage = 'url("img/モルディブ.jpg")';
+        bg.style.backgroundImage = 'url("img/morudive.jpg")';
         $('.whole').hover(function() {
           $('.sight').fadeIn(1000);
         });

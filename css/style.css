@@ -115,31 +115,31 @@ li {
 /* 各国の紹介 */
 /* 初期状態では隠す */
 .america {
-  background-image: url(../img/アメリカ背景.png);
+  background-image: url(../img/america-bg.png);
   display:none;
 }
 .france {
-  background-image: url(../img/フランス背景.png);
+  background-image: url(../img/france-bg.png);
   display:none;
 
 }
 .briten {
-  background-image:url(../img/イギリス背景.png);
+  background-image:url(../img/igiris-bg.png);
   display:none;
 }
 
 .burazil {
-  background-image:url(../img/ブラジル背景.png);
+  background-image:url(../img/burazil-bg.png);
   display:none;
 }
 
 .rusia {
-  background-image: url(../img/ロシア背景.png);
+  background-image: url(../img/rusia-bg.png);
   display:none;
 }
 
 .morudive {
-  background-image: url(../img/モルディブ背景.png);
+  background-image: url(../img/morudive-bg.png);
   display:none;
 
 }
